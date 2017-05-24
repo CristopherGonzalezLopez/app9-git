@@ -1,7 +1,7 @@
 // JavaScript Document
 
  $(document).ready(function(e) {
-    document.addEventListener("deviceready",onDEviceReady,false);
+    document.addEventListener("deviceready",onDeviceReady,false);
 	
  });
  
@@ -13,7 +13,7 @@
 	 
 	 $('#watch').on('click',function(){
 		 watchPosition ();
-	 })
+	 });
 	 
  }
  
